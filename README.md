@@ -129,7 +129,7 @@ Breadboard prototype → custom 2-layer PCB drawn in Altium → MicroPython firm
 
 Open to **part-time software/ML work now or Winter 2027**, and **full-time Summer 2027 internships**. Software engineering, ML, or anything where the model has to run on real hardware.
 
-<sub>Off the clock: basketball, ping pong, anime, and a Smash Bros habit I'm not apologising for.</sub>
+<sub></sub>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,40:4C1D95,100:0A0A0B&height=120&section=footer" width="100%" alt="" />
