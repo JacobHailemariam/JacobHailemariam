@@ -27,6 +27,12 @@
 >
 > ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Mamba](https://img.shields.io/badge/Mamba_/_SSM-7C3AED?style=flat-square) ![Hyperspectral](https://img.shields.io/badge/Hyperspectral_+_LiDAR-0E7490?style=flat-square)
 
+> **Avionics Software Engineer** · Student Organization for Aerospace Research (SOAR)
+>
+> C++ flight software for the Eos rocket avionics. Object-oriented interfaces to the onboard sensors, plus sensor drivers and telemetry modules over I2C, SPI, and UART, built with the avionics team on a Git-based workflow so each person's modules integrate cleanly.
+>
+> ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Flight software](https://img.shields.io/badge/Flight_software-4C1D95?style=flat-square) ![Protocols](https://img.shields.io/badge/I2C_/_SPI_/_UART-0E7490?style=flat-square)
+
 > **Co-Founder — [EngInQuire](https://enginquire.com)**
 >
 > A pre-semester prep venture for incoming Schulich engineering students — built and shipped solo. The site, the serverless booking and email pipeline, a 20-question practice-test engine, and the First-Year Blueprint Generator: a Gemini-powered app that turns a student's course load into a personalized weekly schedule.
@@ -38,6 +44,31 @@
 ## 🚀 Selected work
 
 <sub>Numbers here are measured, not estimated.</sub>
+
+### 🏙️ [CityLink: AI dispatch agent for Calgary 311](https://github.com/ColbyCadden/IEEE-Industry-Hackathon---Dispatch-agent)
+
+2nd place out of 200+ participants at the IEEE Industry Hackathon, built with a team of four. An agent that scores Calgary 311 road tickets by hazard with scikit-learn and plans the day for 8 city crews. The Claude API turns free-text crew updates into structured events and writes the supervisor's briefing, with a rule-based fallback and a human confirm step before any replan. [Demo video](https://www.youtube.com/watch?v=p5cgfG4k0kc).
+
+![Place](https://img.shields.io/badge/2nd-of_200%2B_participants-7C3AED?style=flat-square)
+![Safety](https://img.shields.io/badge/30_%2F_30-safety_tickets_%28vs_16_oldest--first%29-7C3AED?style=flat-square)
+![Jobs](https://img.shields.io/badge/48-jobs_per_day_%28vs_40%29-7C3AED?style=flat-square)
+
+### 🦾 Imitation-learning robot arm · *in progress*
+
+Leading ML, perception, and integration on a 5-person team building a 6-DOF SO-101 arm that learns a pick-and-place task from ~50 teleoperated demonstrations. Building the pipeline that records synced two-camera video and joint states, then trains an Action Chunking Transformer (ACT) policy in PyTorch. Evaluation over 50 trials against a scripted OpenCV ArUco baseline is next.
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LeRobot](https://img.shields.io/badge/LeRobot-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/status-in_progress-A78BFA?style=flat-square)
+
+### 🔌 Simon Says — breadboard to fabricated board
+
+Breadboard prototype → custom 2-layer PCB drawn in Altium → MicroPython firmware on a Raspberry Pi Pico, verified in simulation before fabrication. No repo — it's a board.
+
+![Altium](https://img.shields.io/badge/Altium_Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white)
+![Pico](https://img.shields.io/badge/Raspberry_Pi_Pico-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![MicroPython](https://img.shields.io/badge/MicroPython-2B2728?style=flat-square&logo=micropython&logoColor=white)
 
 ### 🧠 [cifar10-vision-transformer](https://github.com/JacobHailemariam/cifar10-vision-transformer)
 
@@ -62,14 +93,6 @@ Statically exported Next.js App Router site in TypeScript, published by a GitHub
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-### 🔌 Simon Says — breadboard to fabricated board
-
-Breadboard prototype → custom 2-layer PCB drawn in Altium → MicroPython firmware on a Raspberry Pi Pico, verified in simulation before fabrication. No repo — it's a board.
-
-![Altium](https://img.shields.io/badge/Altium_Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white)
-![Pico](https://img.shields.io/badge/Raspberry_Pi_Pico-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-![MicroPython](https://img.shields.io/badge/MicroPython-2B2728?style=flat-square&logo=micropython&logoColor=white)
 
 ---
 
